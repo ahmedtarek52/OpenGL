@@ -11,16 +11,12 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled Dynamic Libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# Compiled Static Libraries
 *.lai
 *.la
 *.a
@@ -30,3 +26,27 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio-specific folders
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+
+# Visual Studio-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# IntelliSense and build-related files
+*.ipch
+*.lastbuildstate
+*.opensdf
+*.tlog
+
+# Visual Studio Code folder
+.vscode/
