@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OPEN_GL\\Sierpinski\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|F:\\OPEN_GL\\Sierpinski\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|F:\\OPEN_GL\\Sierpinski\\VS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|solutionrelative:VS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|F:\\OPEN_GL\\Sierpinski\\FS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0D1267B4-AA64-459D-9F46-60807E0265BE}|OpenGL_Day1.vcxproj|solutionrelative:FS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FS.glsl",
+              "DocumentMoniker": "F:\\OPEN_GL\\Sierpinski\\FS.glsl",
+              "RelativeDocumentMoniker": "FS.glsl",
+              "ToolTip": "F:\\OPEN_GL\\Sierpinski\\FS.glsl",
+              "RelativeToolTip": "FS.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T11:57:29.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VS.glsl",
+              "DocumentMoniker": "F:\\OPEN_GL\\Sierpinski\\VS.glsl",
+              "RelativeDocumentMoniker": "VS.glsl",
+              "ToolTip": "F:\\OPEN_GL\\Sierpinski\\VS.glsl",
+              "RelativeToolTip": "VS.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T11:57:29.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "F:\\OPEN_GL\\Sierpinski\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "F:\\OPEN_GL\\Sierpinski\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwDIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-24T11:57:30.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
