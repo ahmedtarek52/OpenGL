@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\New folder\\OpenGLProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|F:\\New folder\\OpenGLProject\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|F:\\New folder\\OpenGLProject\\VS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|solutionrelative:VS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|F:\\New folder\\OpenGLProject\\FS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{08ABB111-04B6-4B1D-8FB4-ECC74986856D}|OpenGLProject.vcxproj|solutionrelative:FS.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "F:\\New folder\\OpenGLProject\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "F:\\New folder\\OpenGLProject\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T20:10:12.432Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FS.glsl",
+              "DocumentMoniker": "F:\\New folder\\OpenGLProject\\FS.glsl",
+              "RelativeDocumentMoniker": "FS.glsl",
+              "ToolTip": "F:\\New folder\\OpenGLProject\\FS.glsl",
+              "RelativeToolTip": "FS.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-13T15:31:51.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VS.glsl",
+              "DocumentMoniker": "F:\\New folder\\OpenGLProject\\VS.glsl",
+              "RelativeDocumentMoniker": "VS.glsl",
+              "ToolTip": "F:\\New folder\\OpenGLProject\\VS.glsl",
+              "RelativeToolTip": "VS.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-13T15:31:47.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
