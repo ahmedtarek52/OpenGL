@@ -18,7 +18,6 @@ GLuint VBO_Ball, VBO_Paddle, VBO_Bricks, IBO_Bricks, IBO, BasicProgramId;
 GLuint modelMatLoc, viewMatLoc, projMatLoc;
 
 
-
 struct Brick
 {
     bool isActive;
@@ -131,7 +130,7 @@ void RenderPaddle()
 
 
 vec3 startBallPosition(0, -0.8f, 0);
-vec3 startVelocity(0.001f, 0.001f, 0);
+vec3 startVelocity(0.002f, 0.002f, 0);
 vec3 ballPosition= startBallPosition;
 vec3 ballVelocity= startVelocity;
 float ballRadius = 0.04f;  
@@ -179,13 +178,16 @@ void BindBall()
 
 
 
+bool isGameRunning = true; 
 
 
 void UpdateBall()
 {
+    if (!isGameRunning) return; 
+
     ballPosition += ballVelocity;
 
-
+    // Ball collision with walls
     if (ballPosition.x - ballRadius < -1.0f || ballPosition.x + ballRadius > 1.0f)
     {
         ballVelocity.x *= -1;
@@ -195,6 +197,7 @@ void UpdateBall()
         ballVelocity.y *= -1;
     }
 
+    // Ball collision with paddle
     if (ballPosition.y - ballRadius < paddlePosition.y + paddleHeight &&
         ballPosition.x > paddlePosition.x - paddleWidth &&
         ballPosition.x < paddlePosition.x + paddleWidth)
@@ -202,6 +205,7 @@ void UpdateBall()
         ballVelocity.y *= -1;
     }
 
+    // Ball collision with bricks
     for (auto& brick : bricks)
     {
         if (!brick.isActive) continue;
@@ -213,8 +217,8 @@ void UpdateBall()
         {
             ballVelocity.y *= -1;
 
-            int rowIndex = static_cast<int>((1.0f - brick.position.y) / (brickHeight + 0.1f)); 
-            if (rowIndex >= 2) 
+            int rowIndex = static_cast<int>((1.0f - brick.position.y) / (brickHeight + 0.1f));
+            if (rowIndex >= 1)
             {
                 brick.isActive = false;
             }
@@ -223,16 +227,13 @@ void UpdateBall()
         }
     }
 
-
-    // Check if the ball falls below the paddle (game over)
+    // Ball falls below the paddle (Game Over)
     if (ballPosition.y - ballRadius < -1.0f)
     {
-        ballPosition = startBallPosition;
-        ballVelocity = startVelocity;
-        paddlePosition = startPaddlePosition;
+        isGameRunning = false; // Pause the game
     }
-
 }
+
 
 
 bool CheckCollision()
@@ -245,6 +246,17 @@ bool CheckCollision()
         }
     }
     return true;
+}
+
+
+void restartGame()
+{
+    isGameRunning = true; // Resume the game
+
+    ballPosition = startBallPosition;
+    ballVelocity = startVelocity;
+    paddlePosition = startPaddlePosition;
+
 }
 
 
@@ -352,6 +364,14 @@ int main()
             if (normalizedMouseX - paddleWidth / 2.f > -1.0f && normalizedMouseX + paddleWidth / 2.f < 1.0f)
             {
                 paddlePosition.x = normalizedMouseX;
+            }
+
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (!isGameRunning) 
+                {
+                    restartGame();
+                }
             }
         }
 
